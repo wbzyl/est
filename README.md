@@ -1,12 +1,12 @@
 # Przeszukiwanie tweets z ElasticSearch
 
-JTZ? [tutaj jest to opisane](http://wbzyl.inf.ug.edu.pl/rails4/elasticsearch).
+JTZ? [tutaj jest to opisane](http://wbzyl.inf.ug.edu.pl/nosql/elasticsearch).
 
 Zaczynamy od uruchomienia tego skryptu:
 
     ruby create-index-percolate_tweets.rb
 
-Nastepnie uruchamiamy ten skrypt:
+Następnie uruchamiamy ten skrypt:
 
     ruby fetch-tweets.rb
 
