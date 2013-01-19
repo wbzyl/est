@@ -1,0 +1,12 @@
+{
+  "folders": [
+    {
+       "path": ".",
+      "folder_exclude_patterns": ["tmp", "log", "vendor", "script", "public"],
+      "file_exclude_patterns": ["config.ru", "Gemfile.lock", "Rakefile", ".gitignore"]
+    }
+  ],
+  "settings": {
+    "tab_size": 2
+  }
+}

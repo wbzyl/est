@@ -15,7 +15,8 @@
 /tmp
 
 # ST2
-rails.sublime-project
+# rails.sublime-project
+rails.sublime-workspace
 
 # Emacs
 *~
