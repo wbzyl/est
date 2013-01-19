@@ -20,3 +20,4 @@ end
 gem 'jquery-rails'
 gem 'tire'
 gem 'will_paginate'
+gem 'thin'

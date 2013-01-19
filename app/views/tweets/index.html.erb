@@ -1,0 +1,39 @@
+<%= form_tag tweets_index_path, method: :get, class: 'form-search' do %>
+  <%= text_field_tag :q, params[:q], class: 'span4', placeholder: "+text:mongo* -php" %>
+  <%= submit_tag 'Search', name: nil, class: 'btn' %>
+<% end %>
+
+<div class="digg_pagination">
+  <div clas="page_info">
+    <%= page_entries_info @tweets.results %>
+  </div>
+  <%= will_paginate @tweets.results %>
+</div>
+
+<% @tweets.results.each do |tweet| %>
+
+<article>
+<p>
+ <% text = (tweet.highlight && tweet.highlight.text) ? tweet.highlight.text.first : tweet.text %>
+ <%= text.html_safe %>
+</p>
+<% date = Time.parse(tweet.created_at).strftime('%d.%m.%Y %H:%M') %>
+<p class="date">published on <%= content_tag :time, date, datetime: tweet.created_at %></p>
+<p> 
+<% unless tweet.urls.empty? %>
+  Links:
+  <% tweet.urls.each_with_index do |url, index| %>
+     <%= content_tag :a, "[#{index+1}]", href: url, class: :entities %>
+  <% end %>
+<% end %>
+</p>
+</article>
+
+<% end %>
+
+<div class="digg_pagination">
+  <div clas="page_info">
+    <%= page_entries_info @tweets.results %>
+  </div>
+  <%= will_paginate @tweets.results %>
+</div>
