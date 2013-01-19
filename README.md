@@ -1,6 +1,6 @@
-# Wyszukiwanie Tweets z ElasticSearch
+# Przeszukiwanie tweets z ElasticSearch
 
-JTZ? [Wyszukiwanie z ElasticSearch](http://wbzyl.inf.ug.edu.pl/rails4/elasticsearch)
+JTZ? [tutaj jest to opisane](http://wbzyl.inf.ug.edu.pl/rails4/elasticsearch).
 
 Zaczynamy od uruchomienia tego skryptu:
 
