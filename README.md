@@ -33,3 +33,7 @@ Online generators:
 * [Genfavicon](http://www.genfavicon.com/) (32x32)
 * [favicon.ico Generator](http://www.favicon.cc/)
 * [Favicon Generator](http://www.degraeve.com/favicon/)
+
+# Lucene
+
+* [Search syntax](http://lucene.apache.org/core/old_versioned_docs/versions/2_9_1/queryparsersyntax.html)
