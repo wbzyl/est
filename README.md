@@ -20,6 +20,13 @@ i wchodzimy na stronę ElasticSearch-Head:
 
 ([więcej front ends wtyczek](http://www.elasticsearch.org/guide/appendix/clients.html))
 
+
+## Misc stuff
+
+* Daniel Doubrovkine.
+  [Seeding, exporting and importing MongoDB data with Rake](http://code.dblock.org/seeding-exporting-and-importing-mongodb-data-with-rake)
+
+
 ## Twitter Bootstrap
 
 Mixins:
