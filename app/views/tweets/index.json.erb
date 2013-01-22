@@ -1,0 +1,4 @@
+<% @tweets.results.as_json.each do |tweet| -%>
+<% ["_version", "sort", "highlight", "_explanation"].each { |k| tweet.delete(k) } %>
+<%= raw tweet.to_json %>
+<% end %>
