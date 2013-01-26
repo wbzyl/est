@@ -23,3 +23,7 @@ gem 'will_paginate'
 gem 'thin'
 
 # gem 'oj'
+
+gem 'tire'
+gem 'tweetstream'
+gem 'colored'
