@@ -9,7 +9,7 @@ class Tweet
   property :user_mentions
 
   def self.search(params)
-    #Tire.search('statuses', type: 'mongodb', page: params[:page], per_page: 3) do |search|
+    #Tire.search('tweets', type: 'mongodb', page: params[:page], per_page: 3) do |search|
     Tire.search('tweets', page: params[:page], per_page: 8) do |search|
       per_page = search.options[:per_page]
       current_page = search.options[:page] ? search.options[:page].to_i : 1
@@ -29,4 +29,9 @@ class Tweet
       search.from offset
     end
   end
+
+  # These Mongo guys sure do get funky with their IDs in +serializable_hash+, let's fix it.
+  # def to_indexed_json
+  #   self.to_json
+  # end
 end
