@@ -38,26 +38,6 @@ i wchodzimy na stronę ElasticSearch-Head:
 ([więcej front ends wtyczek](http://www.elasticsearch.org/guide/appendix/clients.html))
 
 
-## Misc stuff
-
-* Daniel Doubrovkine.
-  [Seeding, exporting and importing MongoDB data with Rake](http://code.dblock.org/seeding-exporting-and-importing-mongodb-data-with-rake)
-
-
-## Twitter Bootstrap
-
-Mixins:
-
-    less /home/wbzyl/.gems/ruby/1.9.1/gems/twitter-bootstrap-rails-2.2.0/vendor/toolkit/twitter/bootstrap/mixins.less
-
-## Favicons
-
-Online generators:
-
-* [Genfavicon](http://www.genfavicon.com/) (32x32)
-* [favicon.ico Generator](http://www.favicon.cc/)
-* [Favicon Generator](http://www.degraeve.com/favicon/)
-
-# Lucene
+# Wyszukiwanie z Lucene
 
 * [Search syntax](http://lucene.apache.org/core/old_versioned_docs/versions/2_9_1/queryparsersyntax.html)
