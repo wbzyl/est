@@ -4,11 +4,11 @@ Skrypt *fetch-tweets.rb* korzysta z
 tracking API
 Twittera, które wymaga autoryzacji.
 
-Do autoryzacji będziemy potrzebować kluczy: consumer key i secret oraz access tokens.
-Klucze te wygenerujemy po zarejestrowaniu aplikacji na
+Do autoryzacji będziemy potrzebować kluczy: consumer key i secret oraz tokenów dostępu.
+Klucze i tokeny wygenerujemy po zarejestrowaniu aplikacji na
 [Twitter Developers](https://dev.twitter.com/apps).
-Klucze te należy wpisać do pliku *~/.credentials/services.yml*,
-czytanego przez skrypt, w następujący sposób:
+Klucze należy wpisać do pliku *~/.credentials/services.yml*,
+czytanego przez skrypt. Wpisujemy je następujący sposób:
 
 ```yaml
 ---
