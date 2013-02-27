@@ -35,7 +35,9 @@ i wchodzimy na stronę ElasticSearch-Head:
 
     xdg-open http://localhost:9200/_plugin/head/
 
-([więcej front ends wtyczek](http://www.elasticsearch.org/guide/appendix/clients.html))
+Więcej informacji o tej wtyczce [What is this?](http://mobz.github.com/elasticsearch-head/).
+
+Lista wszystkich [wtyczek „front ends”](http://www.elasticsearch.org/guide/appendix/clients.html).
 
 
 # Wyszukiwanie z Lucene
