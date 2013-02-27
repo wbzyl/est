@@ -1,6 +1,23 @@
 # Przeszukiwanie tweets z ElasticSearch
 
-JTZ? [tutaj jest to opisane](http://wbzyl.inf.ug.edu.pl/nosql/elasticsearch).
+Skrypt *fetch-tweets.rb* korzysta z
+tracking API
+Twittera, które wymaga autoryzacji.
+
+Do autoryzacji będziemy potrzebować kluczy: consumer key i secret oraz access tokens.
+Klucze te wygenerujemy po zarejestrowaniu aplikacji na
+[Twitter Developers](https://dev.twitter.com/apps).
+Klucze te należy wpisać do pliku *~/.credentials/services.yml*,
+czytanego przez skrypt, w następujący sposób:
+
+```yaml
+---
+twitter:
+  consumer_key: ...
+  consumer_secret: ...
+  oauth_token: ...
+  oauth_token_secret: ...
+```
 
 Zaczynamy od uruchomienia tego skryptu:
 
