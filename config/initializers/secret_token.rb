@@ -5,3 +5,4 @@
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
 Est::Application.config.secret_token = '3408526cb29e933a95e41558d2cfa9c711951294f085b0bf29482dc33daa336acea65a74de5ee6213b6145d88515deb0f9d94515ce3a3fcdbf61ee64a0d209f5'
+Est::Application.config.secret_key_base = 'd41d8cd98f00b204e9800998ecf8427e'
